@@ -1,0 +1,25 @@
+{
+  "name": "exam_book",
+  "version": "1.0.0",
+  "description": "Prueba de frontend developer para B&B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Alejandro-Repizo/exam_b-b.git"
+  },
+  "keywords": [
+    "css",
+    "js",
+    "html",
+    "landingpage"
+  ],
+  "author": "Alejandro Repizo <alejo.oafr2001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alejandro-Repizo/exam_b-b/issues"
+  },
+  "homepage": "https://github.com/Alejandro-Repizo/exam_b-b#readme"
+}
