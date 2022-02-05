@@ -105,11 +105,11 @@ nav ul {
     color: #000000;
     background-color: #f9f9f9;
     padding: 1rem .8rem;
-    font-size: 24px;
+    font-size: 25px;
     cursor: pointer;
     outline: none;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     margin: .2rem 0;
     display: inline-flex;
     align-items: center;
@@ -130,6 +130,23 @@ nav ul {
 .btn--white {
     color: #454344;
     background-color: #f2f2f2;
+}
+
+.btn--blueWhite {
+    color: #f2f2f2;
+    background-color: #1591c4;
+}
+
+.btn--reverse {
+    width: auto;
+    flex-direction: row-reverse;
+    font-size: 17px;
+    height: 40px;
+    padding: .3rem 1rem;
+}
+
+.btn_icon--reverse {
+    padding: 0 .6rem 0 0;
 }
 
 /* Cards */
@@ -177,7 +194,7 @@ nav ul {
 
 .card_text--title {
     font-weight: 800;
-    font-size: 12px;
+    font-size: 12.5px;
     color: #6b6a6b;
     margin: 0 0 .4rem 0;
 }
@@ -189,3 +206,57 @@ nav ul {
 }
 
 /* info */
+
+.info {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 8px -11px rgba(0, 0, 0, 0.78);
+}
+
+.info_container {
+    display: grid;
+    grid-template: 1fr / 250px 1fr;
+    padding: 2.7rem 0;
+    column-gap: 3rem;
+}
+
+.info_interesting {
+    border: 1px solid red;
+}
+
+.info_text {
+    font-weight: 800;
+    color: #424242;
+}
+
+.info_grid {
+    border: 1px solid red;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    column-gap: .7rem;
+    row-gap: .4rem;
+    margin: .8rem 0;
+}
+
+.info_thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info__content {
+    border: 1px solid red;
+}
+
+.info__text--title {
+    color: #424242;
+}
+
+.info__text--content {
+    color: #585858;
+    line-height: 1.4rem;
+    font-size: 12.5px;
+    /* white-space: pre-line; */
+    margin: 1rem 0;
+}
+
