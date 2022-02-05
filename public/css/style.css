@@ -66,11 +66,11 @@ nav ul {
 
 .banner {
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 6px;
     display: flex;
     justify-content: space-around;
-    width: 90%;
     padding: 3rem 0;
+    box-shadow: 0px 5px 8px -11px rgba(0, 0, 0, 0.78);
 }
 
 .banner_info {
@@ -113,7 +113,12 @@ nav ul {
     margin: .2rem 0;
     display: inline-flex;
     align-items: center;
+    justify-content: space-between;
     font-weight: 800;
+}
+
+.btn_icon {
+    font-size: 18px;
 }
 
 .btn--blue {
@@ -126,3 +131,4 @@ nav ul {
     color: #454344;
     background-color: #f2f2f2;
 }
+
